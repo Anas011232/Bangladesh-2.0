@@ -1,7 +1,350 @@
-header div{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     background: rgb(245, 245, 245);
-    display: contents;
+}
+.abba1{
+    background: rgb(245, 245, 245);
+    display: flex;
     justify-content: center;
     align-items: center;
+   
     justify-content: space-between;
+    padding: 24px 160px 24px 160px;
+    font-family: Fira Sans;
+    
+}
+.bn{
+    box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+padding: 15px 30px 15px 30px;
+color: rgb(0, 106, 80);
+
+
+}
+
+.bn:hover{
+    
+        background-color: black;
+        color: white;
+    
+}
+
+.abba2{
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 160px;
+margin-right: 160px;
+justify-content: space-between;
+
+height: 500px;
+
+}
+.ww{
+    width: 414px;
+    height: 300px;
+margin-top: 30px;
+margin-left: 60px;
+}
+#m{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 38px;
+font-weight: 700;
+margin-top: 16px;
+}
+.shobText{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+
+}
+.shobBTN{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+margin-top: 16px;
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 600;
+border: none;
+
+}
+.w{
+    padding: 20px;
+}
+img{
+    padding: 20px;
+}
+.full{
+    margin-top: 80px;
+    font-family: Fira Sans;
+    padding: 24px 160px 24px 160px;
+}
+.ii{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+
+}
+.tittle{
+   
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+
+font-weight: 700;
+
+}
+#b1{
+    border-radius: 8px;
+
+background: rgb(84, 144, 245);
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+border: none;
+
+}
+
+#b2{
+
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    
+}
+
+#b3{
+
+    border-radius: 8px;
+
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+
+}
+
+.card{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px  ;
+    gap: 24px;
+}
+.c1{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+width: 410.67px;
+height: 350px;
+padding: 32px;
+}
+.c2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    width: 410.67px;
+    height: 350px;
+    padding: 32px;
+}
+.c3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    width: 410.67px;
+    height: 350px;
+    padding: 32px;
+}
+
+.younus{
+    
+
+ 
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 48px 24px 48px 24px;
+margin-top: 32px;
+}
+
+.shobTextee{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+}
+
+.abba3{
+    margin-top: 24px;
+    padding: 24px 160px 24px 160px;
+  
+}
+
+
+.ca1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+margin: 24px 0px;
+padding: 48px;
+padding: 48px 24px 48px 24px;
+margin-top: 32px;
+text-align: left;
+}
+
+.ca2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+margin: 24px 0px;
+padding: 48px;
+padding: 48px 24px 48px 24px;
+margin-top: 32px;
+text-align: left;
+}
+
+
+
+.shobBTN:hover{
+    background-color: black;
+    color: white;
+}
+#b1:hover{
+    background-color: black;
+    color: white;
+}
+#b2:hover{
+    background-color: black;
+    color: white;
+}
+#b3:hover{
+    background-color: black;
+    color: white;
+}
+.i{
+    border-radius: 24px;
+}
+
+.abba4{
+    text-align: center;
+    margin-top: 80px;
+    padding: 24px 160px 24px 160px;
+}
+.a4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.b{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+
+width: 240px;
+height: 128px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
+.b:hover{
+    background: rgb(198, 228, 214);
+}
+form textarea{
+    background-color: white;
+    border: none;
+    justify-content: center;
+  
+    padding: 25px;
+    
+    width: 800px;
+height: 30px;
+align-items: center;
+text-align: center;
+
+
+}
+.abba5{
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+margin-left: 160px;
+margin-right: 160px;
+
+
+}
+
+.l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+textarea{
+    background-color: white;
+    border: none;
+    justify-content: center;
+  
+    padding: 25px;
+    
+    width: 800px;
+   
+
+align-items: center;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 50px 160px 50px 160px;
+    height: 226px;
+    margin-top: 80px;
 }
